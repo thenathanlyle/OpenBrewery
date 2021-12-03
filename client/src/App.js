@@ -1,12 +1,10 @@
 import "./App.css";
+import { Location } from "./Components/location";
 
 function App() {
   return (
     <div className="App">
-      <div className="Container">
-        <h1>Test</h1>
-        <button>Find Nearest Brewery</button>
-      </div>
+      <Location />
     </div>
   );
 }
