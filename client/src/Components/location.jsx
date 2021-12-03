@@ -52,6 +52,8 @@ export const Location = () => {
         <>
           <h3>Name: "{brewery.name}"</h3>
           <h3>Address: "{brewery.street}"</h3>
+          <h3>City: "{brewery.city}"</h3>
+          <h3>State: "{brewery.state}"</h3>
         </>
       ) : null}
     </div>
