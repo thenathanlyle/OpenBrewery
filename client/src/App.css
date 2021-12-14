@@ -2,3 +2,20 @@
   display: flex;
   justify-content: center;
 }
+
+.Logo {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/25/05/7c/25057cdaab436cc244f3c10ec60f03c5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}

@@ -9,15 +9,8 @@
   padding: 20px;
 }
 
-.Logo {
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-}
-
 .Area {
-  margin-top: 15px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 

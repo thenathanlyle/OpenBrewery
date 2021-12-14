@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Logo from "../Assets/Logo.png";
 import axios from "axios";
 import Button from "@mui/material/Button";
 import CircularProgress from "@mui/material/CircularProgress";
@@ -55,7 +54,6 @@ export const Location = () => {
 
   return (
     <div className="Container">
-      <img src={Logo} className="Logo" alt="find-nearby-brewery-logo" />
       <h3 className="Area">Locating Area:</h3>
       <div className="Coordinates">{status}</div>
       {lat && <h4 className="Lat">Latitude: {lat}</h4>}
