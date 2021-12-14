@@ -8,7 +8,7 @@ import "./location.css";
 
 export const Location = () => {
   const [lat, setLat] = useState();
-  const [long, setLng] = useState();
+  const [long, setLong] = useState();
   const [status, setStatus] = useState();
   const [brewery, setBrewery] = useState([]);
 
@@ -31,7 +31,7 @@ export const Location = () => {
             setStatus(null);
             setLat(position.coords.latitude);
             // console.log(position.coords.latitude);
-            setLng(position.coords.longitude);
+            setLong(position.coords.longitude);
             // console.log(position.coords.longitude);
           },
           () => {
