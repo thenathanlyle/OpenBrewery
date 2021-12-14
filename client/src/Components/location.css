@@ -46,9 +46,11 @@
 .Result {
   margin-top: 3px;
   margin-bottom: 3px;
+  text-align: center;
 }
 
 .ResultEnd {
   margin-top: 3px;
   margin-bottom: 15px;
+  text-align: center;
 }

@@ -62,13 +62,11 @@ export const Location = () => {
       {long && <h4 className="Long">Longitude: {long}</h4>}
       {brewery ? (
         <>
-          <h2 className="Title">Name:</h2>
+          <h3 className="Title">Brewery Name:</h3>
           <h4 className="Result">{brewery.name}</h4>
-          <h2 className="Title">Address:</h2>
+          <h3 className="Title">Address:</h3>
           <h4 className="Result">{brewery.street}</h4>
-          <h2 className="Title">City:</h2>
           <h4 className="Result">{brewery.city}</h4>
-          <h2 className="Title">State:</h2>
           <h4 className="ResultEnd">{brewery.state}</h4>
         </>
       ) : null}
